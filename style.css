@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+    background-color: aliceblue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+label,input{
+margin-top: 30px;
+font-size: 20px;
+
+}
+#form-frame{
+    background-color: aqua;
+    height: 420px;
+    width: 420px;
+    border-radius: 32px;
+    position:absolute;
+    left: 480px;
+    top: 80px;
+}
+#username,#email,#confirm-password,#password{
+    border-radius: 12px;
+    width: 220px;
+    border-color: white;
+    
+}
+#login{
+background-color: aliceblue;
+border-radius: 32px;
+height: 40px;
+width: 120px;
+margin-top: 33px;
+border-color: white;
+}
+#login:hover{
+    background-color: aqua;
+}
+#form-frame-2{
+    background-color: aqua;
+    height: 620px;
+    width: 420px;
+    border-radius: 32px;
+    position:absolute;
+    left: 480px;
+    top: 52px;
+}
